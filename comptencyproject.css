@@ -1,0 +1,145 @@
+body{
+    background-image:linear-gradient(to top, #d6d329, #392f5f);
+    background-repeat: no-repeat;
+    color: navy;
+    text-align: center;
+}
+h1{
+    color: limegreen;
+    Margin-bottom: 0;
+    text-align: center;
+}
+nav a{
+    transition: background-color 2s linear;
+}
+nav ul{
+    list-style-type: none;
+    width: 75%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    float: left;
+}
+nav li a{
+
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    
+}
+nav a:link{
+    color:white;
+}
+nav a:visited{
+    color:green;
+}
+nav a:hover{
+    color:blue;
+    background-color: magenta;
+}
+main{
+    background-color: burlywood;
+}
+h2{
+    text-align: center;
+    padding-top: 1em;
+}
+h3{
+    text-align: center;
+}
+p{
+    font-size: small;
+}
+div{
+    color: darkblue;
+    font-weight: bold;
+}
+footer{
+    font-style: italic;
+    font-size: small;
+}
+.centerText{
+    text-align: center;
+}
+.text{
+    padding: 3em;
+}
+.image{
+    padding-top: 2.3em;
+    padding-bottom: 2.3em;
+}
+#descriptionColumn{
+    float: left;
+    width: 60%;
+    height: 1000px;
+    padding: 1em;
+}
+#pictureColumn{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    float: right;
+    width: 30%;
+    height: 1000px;
+}
+#finalStatement{
+    clear: both;
+}
+table{
+    clear: both;
+    border: 3px solid #392f5f;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    margin-bottom: 5em;
+    background-color: #392f5f;
+    color: darkgreen;
+}
+td{
+    font-size:large;
+    text-align: center;
+    
+}
+tr:nth-of-type(odd){
+    background-color: slategray;
+}
+tr:nth-of-type(even){
+    background-color: white;
+}
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+textarea{
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    margin-left: 140px;
+}
+#storeform{
+    width:60%;
+    margin: auto;
+    background-color: white;
+    border: 2px solid black;
+}
+fieldset{
+    margin-top: 1em;
+}
+legend{
+    font-size: small;
+    text-align: left;
+}

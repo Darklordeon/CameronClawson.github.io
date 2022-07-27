@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Heroes For Hire::Home</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="comptencyproject.css">
+    </head>
+    <body>
+        <header>
+            <h1>Heroes For Hire</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="store.html">Buy Now!</a></li>
+            </ul>
+            
+        </nav>
+        <main>
+            <h2>Buy Now!</h2>
+            <p>We look forward to seeing you on Weyward's Battlefields!
+                Fill out the information below to get your copy of Heroes 
+                for Hire Today!</p>
+            
+            <div id="storeform">
+                <h3>All required information is labeled with an asterisk (*)</h3>
+                <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                    <select size="1" name="version" id="version">
+                        <option>Chose Your Version!*</option>
+                        <option value="digitalBasic">Basic Edition (digital)</option>
+                        <option value="digitalDeluxe">Deluxe Edition (digital)</option>
+                        <option value="physicalBasic">Basic Edition (physical)</option>
+                        <option value="physicalDeluxe">Deluxe Edition (physical)</option>
+                    </select>
+                    <fieldset>
+                        <legend>Credit Card information</legend>
+                        <label for="myCCInfo">Credit Card*:</label>
+                        <input type="text" id="myCCInfo" required="required">
+                        <label for="myCCname">Name on Card*:</label>
+                        <input type="text" id="myCCname" required="required">
+                        <label for="myCCaddress">Address*:</label>
+                        <input type="text" id="myCCaddress" required="required">
+                        <label for="myCCstate">State*:</label>
+                        <input type="text" id="myCCstate" required="required">
+                        <label for="myCCAreaCode">Area Code*:</label>
+                        <input type="text" id="myCCAreaCode" required="required"> 
+                        <label for="myCCexpdate">Expiration Date*:</label>
+                        <input type="month" id="myCCexpdate" required="required">
+                        <label for="myCCSecNum">3 Digit Number*:</label>
+                        <input type="text" id="myCCSecNum" required="required">
+                    </fieldset>
+                    <input type="submit">
+                </form>
+            </div>
+        </main>
+        <footer>
+            Copyright &copy; 2022 GreenPhoenix Productions<br>
+            <a href="mailto:cameron.clawson@davistech.edu">
+            cameron.clawson@davistech.edu</a> 
+         
+        </footer>
+    </body>
+</html>
